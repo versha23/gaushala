@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gaushala</string>
+    <string name="gaushala_certificate_number">Gaushala Certificate Number</string>
+    <string name="show_status">Show Status</string>
+</resources>
