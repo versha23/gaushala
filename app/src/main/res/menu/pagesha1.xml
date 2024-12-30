@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_location"
+            android:title="Reported Location"
+            android:icon="@drawable/loca"/>
+
+        <item
+            android:id="@+id/nav_request"
+            android:title="Manufacturer's Request"
+            android:icon="@drawable/manu"/>
+
+        <item
+            android:id="@+id/nav_CowdungUpload"
+            android:title="Upload cow dung amount"
+            android:icon="@drawable/stock"/>
+
+        <item
+            android:id="@+id/nav_CurrentOrders"
+            android:title="Current Orders"
+            android:icon="@drawable/orders"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="profile"
+            android:icon="@drawable/profile">
+        </item>
+    </group>
+</menu>

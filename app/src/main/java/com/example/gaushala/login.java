@@ -1,5 +1,6 @@
 package com.example.gaushala;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +13,7 @@ public class login extends AppCompatActivity  {
     private EditText editTextUsername, editTextPassword;
     private Button buttonLogin;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

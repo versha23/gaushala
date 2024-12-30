@@ -8,16 +8,6 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".login">
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="20dp">
-
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,5 +68,4 @@
                 android:textSize="18sp" />
 
         </LinearLayout>
-    </androidx.cardview.widget.CardView>
-</LinearLayout>
+
